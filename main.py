@@ -2,11 +2,11 @@ import streamlit as st
 import groq
 
 #VARIABLES
-altura_contenedor_chat = 380
+altura_contenedor_chat = 600
 stream_status = True
 
 #CONSTANTES
-MODELOS = ["llama-3.1-8b-instant", "llama-3.3-70b-versatile", "llama-guard-4-12b"]
+MODELOS = ["llama-3.1-8b-instant", "llama-3.3-70b-versatile" ]
 
 #FUNCIONES
 
@@ -89,4 +89,5 @@ def main():
 
 
 if __name__ == "__main__":
+
     main()
